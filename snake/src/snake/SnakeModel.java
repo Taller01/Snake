@@ -52,7 +52,7 @@ public class SnakeModel extends GameModel {
 	private static final GameTile FRUIT_TILE = new RoundTile(new Color(180, 0, 0), Color.RED, 3.0);
 
 	/** Graphical representation of the snake */
-	private static final GameTile SNAKE_TILE = new RectangularTile(Color.GREEN);
+	private static final GameTile SNAKE_TILE = new RectangularTile(Color.darkGray);
 
 	/** Graphical representation of the snake's head */
 	private static final GameTile SNAKE_HEAD_TILE = new RectangularTile(Color.GRAY);
@@ -67,7 +67,7 @@ public class SnakeModel extends GameModel {
 	private final int INITIAL_SNAKE_LENGTH = 20;
 	
 	/** The amount of fruit on the game pane */
-	private final int FRUIT_AMOUNT = 1;
+	private final int FRUIT_AMOUNT = 3;
 	
 	/** The size of the board */
 	private final int GAME_BOARD_SIZE = getGameboardSize().height * getGameboardSize().width;
